@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsLibrusLibrary>true</IsLibrusLibrary>
+    <RootNamespace>Librus</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Librus.Api" />
+    <InternalsVisibleTo Include="Librus.Poller" />
+    <InternalsVisibleTo Include="Librus.Mcp" />
+    <InternalsVisibleTo Include="librus-net" />
+    <InternalsVisibleTo Include="Librus.Tests" />
+  </ItemGroup>
+</Project>

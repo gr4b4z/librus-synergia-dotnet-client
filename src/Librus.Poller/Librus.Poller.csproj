@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsLibrusLibrary>true</IsLibrusLibrary>
+    <RootNamespace>Librus.Poller</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Librus.Api\Librus.Api.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Librus.Tests" />
+  </ItemGroup>
+</Project>

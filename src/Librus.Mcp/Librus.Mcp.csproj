@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsLibrusLibrary>true</IsLibrusLibrary>
+    <RootNamespace>Librus.Mcp</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Librus.Api\Librus.Api.csproj" />
+    <PackageReference Include="ModelContextProtocol.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Librus.Tests" />
+  </ItemGroup>
+</Project>

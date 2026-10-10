@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Librus.OpenApiGen</RootNamespace>
+  </PropertyGroup>
+</Project>
